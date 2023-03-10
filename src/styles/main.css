@@ -1,0 +1,20 @@
+body {
+    background-color: #D3D3D3;
+}
+
+main {
+    min-height: 900px;
+}
+
+.row {
+    margin: auto 0;
+    min-width: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.__loading {
+    padding-top: 200px;
+}

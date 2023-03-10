@@ -1,0 +1,43 @@
+.mt-6 {
+    background-color: #0D9DFF;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-color: #0D9DFF;
+    color: #FFF;
+}
+
+.background_list {
+    background-color: #050081;
+    color: black;
+    margin-top: 300px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+.list_students {
+    overflow: auto;
+    height: 200px;
+    min-width: 300px
+}
+
+.background_quality {
+    background-color: white;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 360px) {
+    .list_students {
+        height: 150px;
+        min-width: 250px
+    }
+}

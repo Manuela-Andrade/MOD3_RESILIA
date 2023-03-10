@@ -1,0 +1,66 @@
+.students_list {
+  overflow: auto;
+  height: 200px;
+}
+
+.button_info_quality {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div__list_students {
+  width: 500px;
+}
+
+.students__quality {
+  width: 450px !important;
+}
+
+.edit__class-infos{
+  display: grid;
+
+  place-items: center;
+}
+.list_edit-class-info {
+
+}
+
+@media only screen and (max-width: 420px) {
+  .button_info_quality {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .buttons_class {
+    margin: 40px 0 0 0 !important;
+  }
+  .class_quality {
+    padding: 20px !important;
+  }
+
+  .margin_controll {
+    width: 200px !important;
+  }
+
+  .students__quality {
+    width: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .resp__class {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .margin_controll {
+    margin-bottom: 15px !important;
+    width: 430px;
+    margin-left: 40px;
+  }
+  .list_edit-class-info {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+}

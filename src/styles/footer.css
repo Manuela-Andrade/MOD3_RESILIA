@@ -1,0 +1,87 @@
+.font{
+  color: #0D5FE7;
+  
+}
+.border1{
+  background-color: #000;
+
+}
+
+.icones{
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoF{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoF:hover{
+  background-color: #fff;
+  border-radius: 20px;
+  
+}
+
+.logoI{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoI:hover{
+  background-color: #fff;
+  border-radius: 20px;
+  color: #fb00df;
+}
+
+.logoG{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.logoG:hover{
+  background-color: #fff;
+  border-radius: 20px;
+  color: #ff0000;
+}
+
+.logoW{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logoW:hover{
+  background-color: #fff;
+  border-radius: 20px;
+  color: #1ad03f;
+}
+
+.color_footer{
+  color: #fff;
+}

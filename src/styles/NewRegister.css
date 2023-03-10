@@ -1,0 +1,22 @@
+.button__quality{
+    background-color:#0D9DFF ;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-color: #0D9DFF ;
+    color: #FFF;
+}
+
+.button__quality:hover {
+    background-color: #050081;
+    color: white !important;
+}
+.main__quality {
+    display: grid;
+    place-items: center;
+}
+
+.allign__{
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #FFF;
+}

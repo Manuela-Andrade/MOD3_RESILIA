@@ -1,0 +1,17 @@
+.font__nav {
+  font-size: 20px;
+}
+.button{
+  color: #e6324b;
+  border: none;
+}
+.button:hover {
+  transform: scale(10px);
+}
+
+@media only screen and (max-width: 420) {
+  .nav {
+      display: flex;
+      flex-direction: column;
+  }
+}
