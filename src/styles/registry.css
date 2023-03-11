@@ -10,9 +10,11 @@
 }
 
   .button__ {
-    background-color:#0D9DFF ;
+    background-color:#e6324b ;
     border-radius: 15px;
     padding: 5px 10px;
-    border-color: #0D9DFF ;
+    border-color: black ;
     color: #FFF;
   }
+
+  

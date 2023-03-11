@@ -117,7 +117,7 @@ function TeacherInfo() {
 
     if (deletingTeacher) {
         return (
-            <main className='mb-5 text-center text-white __loading' style={{ background: "#050081" }}>
+            <main className='mb-5 text-center text-white __loading' style={{ background: "#f2e3c6" }}>
                 <h5>A exclusão do cadastro é irreversível.</h5>
                 <p>Tem certeza que deseja deletar o cadastro?</p>
                 <button className='btn btn-danger' onClick={handleDelete}>Deletar</button>
@@ -153,12 +153,12 @@ function TeacherInfo() {
 
     if (isLoading == "true") {
         return (
-            <main className='__loading' style={{ backgroundColor: '#050081' }}>
+            <main className='__loading' style={{ backgroundColor: '##f2e3c6' }}>
                 <Loading />
             </main>)
     } else if (isLoading == "error") {
         return (
-            <main className='text-center text-white __loading' style={{ backgroundColor: '#050081' }}>
+            <main className='text-center text-white __loading' style={{ backgroundColor: '#f2e3c6' }}>
                 <h1>Erro 404!</h1>
                 <h4>Professor não encontrado.</h4>
                 <div className='mt-4 mb-5'>
@@ -170,7 +170,7 @@ function TeacherInfo() {
     }
     else {
         return (
-            <main style={{ backgroundColor: '#050081' }}>
+            <main style={{ backgroundColor: '#f2e3c6' }}>
                 {isEditing ? (
                     <div>
                         <div className='mb-5 pt-5 text-center'>
@@ -250,7 +250,7 @@ function TeacherInfo() {
 
                                 </div>
                                 <div className='mt-5'>
-                                    <button className='btn-success btn mx-5 mt-3' onClick={handleSaveClick}>Salvar</button>
+                                    <button className='btn-dark btn mx-5 mt-3' onClick={handleSaveClick}>Salvar</button>
                                     <button className='btn-light btn mx-5 mt-3' onClick={handleCancelClick}>Cancelar</button>
                                 </div>
                             </section>

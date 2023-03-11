@@ -168,12 +168,12 @@ function StudentInfo() {
 
     if (isLoading == "true") {
         return (
-            <main style={{ backgroundColor: '#050081' }}>
+            <main style={{ backgroundColor: '##f2e3c6' }}>
                 <Loading />
             </main>)
     } else if (isLoading == "error") {
         return (
-            <main style={{ backgroundColor: '#050081' }} className='text-center text-white'>
+            <main style={{ backgroundColor: '#f2e3c6' }} className='text-center text-white'>
                 <h1>Erro 404!</h1>
                 <h4>Aluno não encontrado.</h4>
                 <div className='mt-4 mb-5'>
@@ -184,7 +184,7 @@ function StudentInfo() {
     }
     else {
         return (
-            <main style={{ backgroundColor: '#050081' }}>
+            <main style={{ backgroundColor: '#f2e3c6' }}>
                 {isEditing ? (
                     <div>
                         <div className='mb-5 pt-5 text-center'>

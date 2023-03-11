@@ -221,7 +221,7 @@ function ClassInfo() {
 
   if (deletingClassRoom) {
     return (
-      <main style={{ background: "#050081" }} className="mb-5 text-center text-white __loading">
+      <main style={{ background: "#f2e3c6" }} className="mb-5 text-center text-white __loading">
         <h5>A exclusão do cadastro é irreversível.</h5>
         <p>Tem certeza que deseja deletar o cadastro?</p>
         <button className="btn btn-danger" onClick={handleDelete}>
@@ -258,7 +258,7 @@ function ClassInfo() {
     );
   } else {
     return (
-      <main style={{ background: "#050081" }}>
+      <main style={{ background: "#f2e3c6" }}>
         <div className="pb-5">
 
         </div>
