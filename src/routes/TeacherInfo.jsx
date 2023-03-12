@@ -250,7 +250,7 @@ function TeacherInfo() {
 
                                 </div>
                                 <div className='mt-5'>
-                                    <button className='btn-dark btn mx-5 mt-3' onClick={handleSaveClick}>Salvar</button>
+                                    <button className='btn-success btn mx-5 mt-3' onClick={handleSaveClick}>Salvar</button>
                                     <button className='btn-light btn mx-5 mt-3' onClick={handleCancelClick}>Cancelar</button>
                                 </div>
                             </section>
@@ -259,8 +259,8 @@ function TeacherInfo() {
                 ) : (
                     <div className='text-white'>
                         <div><Link to="/"><button className='btn-light btn mt-3'>⇦ Voltar</button></Link></div>
-                        <h2 className=" mx-5 d-flex justify-content-center">Informações do Professor</h2>
-                        <div className='main__quality text-white border rounded p-5 m-5'>
+                        <h2 className=" mx-5 d-flex justify-content-center text-black">Informações do Professor</h2>
+                        <div className='main__quality text-white border-black rounded p-5 m-5'>
 
                             <div className='text-center mb-5'>
                                 <img src={profile} alt="profile" width={'70em'} className='rounded-circle' />
@@ -272,7 +272,7 @@ function TeacherInfo() {
                                     )}
                                 </div>
                             </div>
-                            <div>
+                            <div className="text-black">
 
                                 <p>Nome Completo: {data.nome}</p>
                                 <p>CPF: {data.cpf}</p>

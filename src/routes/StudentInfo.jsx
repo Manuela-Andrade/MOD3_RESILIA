@@ -190,7 +190,7 @@ function StudentInfo() {
                         <div className='mb-5 pt-5 text-center'>
                             <section className='d-flex flex-column border mx-5 pb-4 rounded'>
                                 <div className='mb-5 pt-5 text-center rounded'>
-                                    <img src={profile} alt="profile" width={'70em'} className='rounded-circle' />
+                                    <img src={profile} alt="profile" width={'70em'} className='rounded-circle ' />
                                 </div>
                                 <div className='d-flex justify-content-center text-white'>
                                     <Form noValidate validated={validated}>
@@ -271,8 +271,8 @@ function StudentInfo() {
                 ) : (
                     <div className='text-white'>
                         <div><Link to="/"><button className='btn-light btn mt-3'>⇦ Voltar</button></Link></div>
-                        <h2 className=" mx-5 d-flex justify-content-center">Informações do Aluno</h2>
-                        <div className='main__quality text-white rounded border p-5 m-5'>
+                        <h2 className=" mx-5 d-flex justify-content-center text-black">Informações do Aluno</h2>
+                        <div className='main__quality text-white rounded border-dark p-5 m-5'>
 
                             <div className='text-center mb-5'>
                                 <img src={profile} alt="profile" width={'70em'} className='rounded-circle' />
@@ -284,7 +284,7 @@ function StudentInfo() {
                                     )}
                                 </div>
                             </div>
-                            <div>
+                            <div className='text-black'>
                                 <p>Nome Completo: {data.nome}</p>
                                 <p>Data de Nascimento: {data.dataNascimento}</p>
                                 <p>CPF: {data.cpf}</p>
