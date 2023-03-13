@@ -7,9 +7,9 @@ Projeto construído através do framework React, utilizando um servidor Json con
 
 # 🛠️ Abrir e rodar o projeto:
 
-- `Instale o Node.js`
+[x] `Instale o Node.js`
 
-- `Abra seu Editor de Código e instale as dependências na pasta local node_modules através do comando a seguir:`
+[x] `Abra seu Editor de Código e instale as dependências na pasta local node_modules através do comando a seguir:`
 
 npm install
 
