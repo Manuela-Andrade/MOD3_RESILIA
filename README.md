@@ -5,7 +5,7 @@
 
 
 
- #📝 Abrir e rodar o projeto:
+ # 📝 Abrir e rodar o projeto:
 
 - `Instale o Node.js`
 
