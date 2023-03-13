@@ -17,9 +17,9 @@ npm install
 
 npm install axios
 
-- `Após realizar as instalações, execute o comando a seguir no Terminal do seu Editor de Código:`
+- Após realizar as instalações, execute o comando a seguir no Terminal do seu Editor de Código:
 
-npm run dev
+`npm run dev`
 
 - `Acesse através da url local host informada no terminal.`
 --------------------------------------------------------------
