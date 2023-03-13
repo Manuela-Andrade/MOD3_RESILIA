@@ -1,5 +1,5 @@
 
-#:computer: Projeto Módulo 3 em Grupo  
+# 💻 Projeto Módulo 3 em Grupo  
 ----------------------------
 `Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual.
 
