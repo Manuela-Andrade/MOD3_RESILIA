@@ -11,15 +11,15 @@
 
 - `Abra seu Editor de Código e instale as dependências na pasta local node_modules através do comando a seguir:`
 
-npm install
+    npm install
 
 - `Instale o Axios para o consumo das APIs:`
 
-npm install axios
+    npm install axios
 
 - Após realizar as instalações, execute o comando a seguir no Terminal do seu Editor de Código:
 
-`npm run dev`
+    npm run dev
 
 - `Acesse através da url local host informada no terminal.`
 --------------------------------------------------------------
