@@ -1,9 +1,9 @@
 
-Projeto Módulo 3 em Grupo - 
+Projeto Módulo 3 em Grupo  
 ----------------------------
-Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual
-
-
+Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual.
+-
+-
 
 # 🛠️ Abrir e rodar o projeto:
 
