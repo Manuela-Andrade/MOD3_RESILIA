@@ -22,5 +22,5 @@ npm install axios
 npm run dev
 
 - `Acesse através da url local host informada no terminal.`
-
+--------------------------------------------------------------
 - Ou acesse através do link https://escola-resilia.vercel.app/
