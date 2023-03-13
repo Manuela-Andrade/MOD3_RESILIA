@@ -1,7 +1,7 @@
 
 Projeto Módulo 3 em Grupo - Sendo servido
 Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual
-
+----------------------------------------------------------------------------------------------------------------
 Executando:
 
 • Instale o Node.js
