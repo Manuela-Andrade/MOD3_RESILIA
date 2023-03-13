@@ -24,5 +24,9 @@
 - `Acesse através da url local host informada no terminal.`
 --------------------------------------------------------------
 - Ou acesse através do link https://escola-resilia.vercel.app/
+--------------------------------------------------------------
 
-
+# Contribuintes:
+ - Manuela Andrade 
+ - Eliseu Machado
+ - Beatriz Melo
