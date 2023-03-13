@@ -1,15 +1,15 @@
 
 :computer: Projeto Módulo 3 em Grupo  
 ----------------------------
-Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual.
+-Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual.
 
--
+
 
 # 🛠️ Abrir e rodar o projeto:
 
-[x] `Instale o Node.js`
+- `Instale o Node.js`
 
-[x] `Abra seu Editor de Código e instale as dependências na pasta local node_modules através do comando a seguir:`
+- `Abra seu Editor de Código e instale as dependências na pasta local node_modules através do comando a seguir:`
 
 npm install
 
