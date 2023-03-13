@@ -1,11 +1,11 @@
 
-:computer: Projeto Módulo 3 em Grupo  
+#:computer: Projeto Módulo 3 em Grupo  
 ----------------------------
 -Projeto construído através do framework React, utilizando um servidor Json construído no projeto individual.
 
 
 
- # 🛠️ Abrir e rodar o projeto:
+ 📝 Abrir e rodar o projeto:
 
 - `Instale o Node.js`
 
